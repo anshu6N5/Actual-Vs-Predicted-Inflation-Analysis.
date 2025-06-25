@@ -36,7 +36,7 @@ FR.INR.LEND	Lending Interest Rate (%)
 r
 Copy
 Edit
-model <- lmer(inflation ~ money_supply + interest_rate + (1 | country), data = data_clean)
+model <- lmer(inflation ~ money_supply + interest_rate + (1 | country), data = data)
 Fixed Effects: money_supply, interest_rate
 
 Random Effect: Intercept by country (to capture baseline inflation differences)
